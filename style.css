@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    min-height: 90%;
+    width: 100%;
+    background-position: center;
+    background-size: cover; 
+    position: relative;
+}
+
+.logo-company{
+    width: 30px;
+    position: relative;
+    height: 30px;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav img{ 
+    width: 100%;
+} 
+.nav-links a{
+    /* flex: 1;
+    text-align: right; */
+    font-size: 1.2em;
+    color: #fff;
+    opacity: 0.75;
+    margin: 0 15px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    font-size: 17px;
+}
+.nav-links ul li a{
+    color: #191c1a;
+    text-decoration: none;
+    font-size: 1,2rem;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #252928;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 56px;
+}
+.text-box p{
+    margin: 30px 0 40px;
+    font-size: 18px;
+}
+.visit-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 18px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #69777a;
+    background:  #69777a;
+    transition: 1s;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.cta-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+.cta-img img{
+    width: 100%;
+    height: 40%;
+}
+
+.content-text{
+    padding: 13px;
+    margin: 20px;
+}
+
+.content .content-text p {
+    margin: 20px;
+    padding: 40px;
+    font-size: 20px;
+    color: #696b72;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.content-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+.content-caffe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    color: #696b72;
+}
+.content-text p h2{
+    font-weight: 400;
+    margin: 18px;
+    padding: 25px;
+}
+
+.content-zoo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    color: #696b72;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 100vh;
+}
+footer{
+    position: relative;
+    width: 100%;
+    padding: 20px 50px;
+    background: #3a3d42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-size: 1000px 100px;
+}
+.social,
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+.social li,
+.menu li{
+    list-style: none;
+}
+.social li a {
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.menu li a {
+    font-size: 1.2em;
+    color: #fff;
+    opacity: 0.75;
+    margin: 0 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+.menu li a:hover {
+    opacity: 1;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+
+.lunch-menu{
+    padding: 15px; 
+    background: #ffffff; 
+    margin-right: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+.caffe-menu-img img{
+    border: 2px solid #ffffff; 
+    padding: 15px; 
+    background: #ffffff; 
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+    width: 450px;
+    height: 450px;
+}
+
+.contact{
+    justify-content: center;
+    align-items: center;border: 2px solid #ffffff; 
+    padding: 15px; 
+    background: #ffffff; 
+    margin: 30px;
+    padding: 30px;
+}
